@@ -1,3 +1,3 @@
 # Authentication-System
 
-Systema de cadastro e autenticação feito em Javascript, o cadastro é salvo usando o LocalStorage.
+Systema de cadastro e autenticação feito em Javascript usando o LocalStorage.

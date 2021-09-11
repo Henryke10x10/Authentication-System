@@ -2,4 +2,4 @@
 
 Systema de cadastro e autenticação feito em Javascript usando o LocalStorage.
 
-[Sistema](https://henryke10x10.github.io/Authentication-System/)
+[Faça seu cadastro](https://henryke10x10.github.io/Authentication-System/)

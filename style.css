@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(K8lDBYU.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 4px 4px;
+    margin-bottom: 8px;
+    background: transparent;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #272262;
+    outline: none;
+    min-width: 180px;
+    font-size: 1rem;
+    transition: all .3s ease-out;
+}
+
+
+input:focus {
+    transform-origin: center;
+    filter: brightness(1.5);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+    color: #272262;
+    margin: 8px;
+}
+
+button {
+    font-size: 1.2rem;
+    margin-top: 16px;
+    padding: 6px;
+    border: 2px solid #272262;
+    border-radius: 8%;
+    outline: none;
+    background: transparent;
+}
+
+button:hover {
+    background-color: #272262;
+    color: white;
+}
+
+button:last-child {
+    font-size: .9rem;
+    font-weight: 600;
+    border: 0;
+    color: #272262;
+}
+
+button:last-child:hover {
+    background-color: #272262;
+    color: white;
+}
+
+.fa-eye {
+    top: 0;
+    margin-left: 85%;
+    cursor: pointer;
+    color: #272262;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #4038a0;
+}
+
+.container {
+width: 500px;
+background-color: #ffffff80;
+padding: 24px;
+border-radius: 4%;
+box-shadow: 3px 3px 1px 0px #00000060;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+transform: scale(1);
+transition: all .3s ease-out;
+}
+
+#erro {
+    text-align: center;
+    color: #ff0000;
+    background: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+    margin: 8px 0;
+}
+
+#sucesso {
+    text-align: center;
+    color: #00bb00;
+    background: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+    margin: 8px 0;
+}
+
+
+
+#msgErro {
+    text-align: center;
+    color: #ff0000;
+    background: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
